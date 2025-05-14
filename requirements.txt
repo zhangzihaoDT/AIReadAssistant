@@ -1,0 +1,73 @@
+# AI阅读助手依赖包列表
+
+# Web界面
+gradio>=4.0.0
+
+# AI模型和自然语言处理
+langchain>=0.0.267
+langchain-openai>=0.0.2
+openai>=1.0.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# HTTP请求
+requests>=2.31.0
+
+# 文件和路径处理
+pathlib>=1.0.1
+
+# 日期和时间处理
+python-dateutil>=2.8.2
+
+
+
+
+          
+# 创建 requirements.txt 文件
+
+我将为您的 AI 阅读助手项目创建一个 `requirements.txt` 文件，列出项目所需的 Python 依赖包。
+
+以下是建议的 `requirements.txt` 文件内容：
+
+```plaintext:/Users/zihao_/Documents/coding/AIReadingAssistant/requirements.txt
+# AI阅读助手依赖包列表
+
+# Web界面
+gradio>=4.0.0
+
+# AI模型和自然语言处理
+langchain>=0.0.267
+langchain-openai>=0.0.2
+openai>=1.0.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# HTTP请求
+requests>=2.31.0
+
+# 文件和路径处理
+pathlib>=1.0.1
+
+# 日期和时间处理
+python-dateutil>=2.8.2
+```
+
+## 使用说明
+
+# 1. 使用此文件安装所有依赖：
+#    ```bash
+#    pip install -r requirements.txt
+#    ```
+
+# 2. 如果您的项目需要其他依赖，请将它们添加到此文件中。
+
+# 3. 建议使用虚拟环境来隔离项目依赖：
+#    ```bash
+#    python -m venv venv
+#    source venv/bin/activate  # 在macOS/Linux上
+#    pip install -r requirements.txt
+#    ```
+
+# 这个 `requirements.txt` 文件包含了您项目中可能使用的主要依赖，包括Gradio用于Web界面、LangChain用于AI模型集成、python-dotenv用于环境变量管理等。
