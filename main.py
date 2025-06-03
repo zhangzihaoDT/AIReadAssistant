@@ -586,4 +586,4 @@ with gr.Blocks(title="AI阅读助手", theme=gr.themes.Base()) as demo:
         outputs=[] # 不需要直接输出，只更新state
     )
 
-demo.launch(share=False, server_name="0.0.0.0", server_port=7860)
+demo.launch(share=True, server_name="0.0.0.0", server_port=7860)
